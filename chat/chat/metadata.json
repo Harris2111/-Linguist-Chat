@@ -1,0 +1,8 @@
+{
+  "name": "Linguist Chat",
+  "description": "Linguist Chat is a free-forever web app for global messaging with instant real-time translation. Register with your email to experience seamless communication across language barriers with private messages and calls.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
