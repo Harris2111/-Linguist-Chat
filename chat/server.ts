@@ -24,7 +24,7 @@ async function startServer() {
     maxHttpBufferSize: 1e8 // 100MB
   });
 
-  const PORT = 3000;
+  const PORT = process.env.PORT || 3000;
 
   // Middleware to check Supabase configuration
   app.use((req, res, next) => {
